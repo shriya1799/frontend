@@ -1,0 +1,54 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.game-title {
+    font-family: 'Dongle', sans-serif;
+    font-size: 60px;
+    color:#ecb0d1;
+    margin: 10px auto;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color:#ecb0d1;
+    color: #a2ece7;
+}
+
+.cell {
+    font-family:'sans-serif', cursive;;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #ecd7ba;
+    border: 2px solid #ecd7ba;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 90px;
+}
+.cell:hover{
+    background-color:#eed6ec;
+}
+.game-status {
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+    color: #ecb0d1;
+    margin: 20px auto;
+}
+
+.game-restart {
+    font-family: 'Dongle', sans-serif;
+    background-color: #ecb0d1;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    border: 3px solid #11213a;;
+}
