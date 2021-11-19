@@ -1,0 +1,18 @@
+h4{
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+p{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: maroon;
+}
+.title{
+    background-color: red;
+    font-size: 22px;
+}
